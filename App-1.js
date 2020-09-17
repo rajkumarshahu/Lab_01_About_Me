@@ -21,14 +21,12 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     paddingTop: 60,
-    backgroundColor: '#a2d5f2',
   },
   img: {
     width: 200,
     height: 100,
     alignSelf: 'center',
-    borderRadius: 10,
-    margin: 20,
+    borderRadius: 50,
   },
 });
 
