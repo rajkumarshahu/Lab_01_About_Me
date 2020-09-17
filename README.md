@@ -9,12 +9,12 @@
 ## Running app
 
 ```sh
-cd Lab_01_About_Me
+    cd Lab_01_About_Me
 
-npm install (to install dependencies)
+    npm install (to install dependencies)
 
-react-native run-android
-react-native run-ios
+    react-native run-android (to run on Android emulator)
+    react-native run-ios (to run on iOs emulator)
 
 ```
 
