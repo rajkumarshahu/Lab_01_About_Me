@@ -1,0 +1,27 @@
+# AboutMe
+
+* This is my first React Native app.
+
+## Getting Started
+
+* Download and unzip the project.
+
+## Running app
+
+```sh
+cd Lab_01_About_Me
+
+npm install (to install dependencies)
+
+react-native run-android
+react-native run-ios
+
+```
+
+## Technology Used
+
+* React Native
+
+### Author
+
+* [Raj Kumar Shahu](https://rajkumarshahu.com/)
