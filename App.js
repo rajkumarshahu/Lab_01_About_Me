@@ -1,18 +1,21 @@
 import React from 'react';
 import {View, Image, StyleSheet} from 'react-native';
+import Greeting from './components/Greeting';
 import Header from './components/Header';
+import StudentID from './components/StudentID';
 
 const App = () => {
   return (
     <View style={styles.container}>
-      <Header />
-
+      <Header title="About Me" />
+      <Greeting />
       <Image
         source={{
           uri: 'https://rajkumarshahu.com/assets/images/raj-photo1.JPG',
         }}
         style={styles.img}
       />
+      <StudentID />
     </View>
   );
 };
@@ -20,8 +23,8 @@ const App = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: 60,
-    backgroundColor: '#a2d5f2',
+    paddingTop: 35,
+    backgroundColor: '#f5f1da',
   },
   img: {
     width: 200,
