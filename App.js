@@ -1,12 +1,12 @@
 import React from 'react';
-import {View, Image, StyleSheet} from 'react-native';
+import {ScrollView, View, Image, StyleSheet} from 'react-native';
 import Greeting from './components/Greeting';
 import Header from './components/Header';
 import StudentID from './components/StudentID';
 
 const App = () => {
   return (
-    <View style={styles.container}>
+    <ScrollView style={styles.container}>
       <Header title="About Me" />
       <Greeting />
       <Image
@@ -16,7 +16,7 @@ const App = () => {
         style={styles.img}
       />
       <StudentID />
-    </View>
+    </ScrollView>
   );
 };
 
