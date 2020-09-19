@@ -1,8 +1,9 @@
 import React from 'react';
-import {ScrollView, View, Image, StyleSheet} from 'react-native';
+import {ScrollView, Image, StyleSheet} from 'react-native';
 import Greeting from './components/Greeting';
 import Header from './components/Header';
 import StudentID from './components/StudentID';
+// import MyDetails from './components/MyDetails';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         style={styles.img}
       />
       <StudentID />
+      {/* <MyDetails /> */}
     </ScrollView>
   );
 };
@@ -31,7 +33,7 @@ const styles = StyleSheet.create({
     height: 200,
     alignSelf: 'center',
     borderRadius: 10,
-    margin: 20,
+    margin: 10,
   },
 });
 
